@@ -20,3 +20,7 @@ Output
 
 "e13r"
 */
+
+function numeronym(s) {
+      return s[0] + (s.length - 2) + s[s.length-1]
+}
