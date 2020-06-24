@@ -12,3 +12,11 @@ Output
 
 [5, 4, 9]
 */
+
+function stairway(arr){
+    let newArr = [];
+    for(let i = 0; i < arr.length; i++){
+      newArr.push(parseInt(arr[i]) + i);
+    }
+    return newArr;
+  }
