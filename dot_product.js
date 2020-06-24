@@ -31,3 +31,12 @@ Output
 
 55
 */
+
+function dot(a, b) {
+    let product = 0;
+          for(i = 0; i < a.length; i++) {
+              product += (a[i] * b[i])
+          }
+          
+      return product;
+  }
