@@ -12,3 +12,11 @@ Output
 
 [3, -2, 5, 10, 4]
 */
+
+function take5(arr) {
+    let newArr = [];
+    for(let i = 0; i < arr.length; i++){
+      newArr.push(arr[i] - 5);
+    }
+    return newArr;
+  }
